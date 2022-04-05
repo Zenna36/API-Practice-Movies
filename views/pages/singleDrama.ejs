@@ -1,0 +1,16 @@
+<%- include('../partials/header'); %>
+
+    <main class="main container">
+        <div class="row">
+            <section class="section row">
+                <figure class="figure col-10">
+                    <h2><figcaption><%= data.title %></figcaption></h2>
+                    <hr>
+                    <img src="<%= data.posterURL %>" alt="<%= data.name %>" class="img-fluid">
+                    <hr>
+                </figure>
+            </section>
+        </div>
+    </main>
+
+<%- include('../partials/footer'); %>
